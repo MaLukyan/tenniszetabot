@@ -1,6 +1,7 @@
+markdown
 # 🎾 Tennis ZetaBot
 
-**🇷 [Русский](#russian) · 🇬🇧 [English](#english) · 🇦 [Հայերեն](#armenian) · 🇦🇿 [Azərbaycan](#azerbaijani) · 🇹🇷 [Türkçe](#turkish)**
+**🇷🇺 [Русский](#-русский) · 🇬🇧 [English](#-english) · 🇦🇲 [Հայերեն](#-հայերեն) · 🇦🇿 [Azərbaycan](#-azərbaycan) · 🇹🇷 [Türkçe](#-türkçe)**
 
 [![Status](https://img.shields.io/badge/status-stable-brightgreen)](#)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-blue)](#)
@@ -12,8 +13,6 @@
 > ⚠️ **NOT FOR SALE · НЕ ДЛЯ ПРОДАЖИ · ՉԻ ՎԱՃԱՌՎՈՒՄ · SATILMIR · SATILIK DEĞİL**
 
 **by MaLukyan Ltd · 2026 · [zetabot.ru](https://zetabot.ru) · Telegram: [@aizetabot](https://t.me/aizetabot)**
-
-> **Информационный проект.** Приложение не принимает ставки, не является букмекером и не гарантирует прибыль. Ставки связаны с финансовым риском. Используйте только на свой страх и риск. 18+.
 
 ---
 
@@ -36,20 +35,13 @@
 
 ---
 
-<a id="russian"></a>
+<a id="-русский"></a>
 
-## 🇷 Русский
+## 🇷🇺 Русский
 
 **Tennis ZetaBot** — бесплатное Windows-приложение для live-мониторинга матчей одиночного тенниса на Tennis24 с готовыми прогнозами по стратегиям профессионального уровня. Программа анализирует матчи в реальном времени и показывает в отдельной колонке готовый рецепт: **на кого ставить, какой рынок, какой кэф, сколько денег**.
 
 Программа **не делает ставок**. Она только анализирует и рекомендует. Решение всегда за вами.
-
-### 💻 Требования
-
-- Windows 10 / 11, 64-bit
-- Стабильное интернет-соединение
-- Доступ к сайту Tennis24
-- Букмекерский аккаунт — только для самостоятельного размещения ставок
 
 ### 🎯 Основная стратегия «30/30 на андердога»
 
@@ -89,14 +81,12 @@
 - 🔔 **Звук + всплывающие уведомления** для каждого типа сигнала
 - 🌐 **5 языков интерфейса**: Русский, English, Հայերեն, Azərbaycan, Türkçe
 - 🔄 **Автообновление** через GitHub Releases
-- 💾 Конфиг и логи хранятся локально: `%APPDATA%\TennisZetaBot\`
-- 🛑 Приложение не принимает платежи и не подключается к букмекерским API
+- 💾 Конфиг и логи в `%APPDATA%\TennisZetaBot\`
 
 ### 🚀 Быстрый старт
 
 1. Скачайте `TennisZetaBot.exe` из раздела **Releases**
-2. Запустите приложение  
-   _Windows может попросить подтверждение запуска — это нормальное поведение для unsigned-приложений._
+2. Запустите приложение (Windows может попросить подтверждение — это нормально)
 3. Откройте вкладку **«⚙ Настройки»** и настройте параметры под себя
 4. Нажмите **▶ Запустить** на вкладке «📡 Сигналы»
 5. Программа сканирует Tennis24 каждые несколько секунд
@@ -105,30 +95,26 @@
 8. Откройте букмекера и сделайте ставку вручную
 
 ### 📁 Где хранятся данные
-
-```text
 %APPDATA%\TennisZetaBot
-├── config.json          ← настройки
-├── zetabot.log          ← журнал работы
-└── signals_history.csv  ← экспорт сигналов
-```
+├── config.json ← настройки
+├── zetabot.log ← журнал
+└── signals_history.csv ← экспорт сигналов
+
+text
 
 ### ⚖ Правовая информация
 
 - Распространяется **бесплатно**
 - Любая продажа — **нарушение**
 - Не является букмекером, ставки **не принимает**
-- Все сигналы носят **информационный характер**
-- Не является индивидуальной инвестиционной или финансовой рекомендацией
+- Все сигналы **информационные**
 - Автор **не несёт ответственности** за финансовые потери
-- Проект не аффилирован с Tennis24, WTA, ATP, ITF, букмекерскими компаниями или другими правообладателями
 
 ### 📞 Контакты
 
 - 📢 Telegram-канал: [@aizetabot](https://t.me/aizetabot)
 - ✉️ Связь: [@ai_zetabot](https://t.me/ai_zetabot)
 - 🌐 Экосистема: [zetabot.ru](https://zetabot.ru)
-- 🤖 AI-проекты: [ai.zetabot.ru](https://ai.zetabot.ru)
 
 ### ☕ Поддержать автора
 
@@ -136,7 +122,7 @@
 
 ---
 
-<a id="english"></a>
+<a id="-english"></a>
 
 ## 🇬🇧 English
 
@@ -144,14 +130,7 @@
 
 The app **does not place bets**. It only analyses and recommends. The decision is always yours.
 
-### 💻 Requirements
-
-- Windows 10 / 11, 64-bit
-- Stable internet connection
-- Access to Tennis24
-- A bookmaker account — only for manually placing bets
-
-### 🎯 Main strategy: "30/30 on underdog"
+### 🎯 Main strategy "30/30 on underdog"
 
 | Parameter | Value |
 |---|---|
@@ -189,14 +168,12 @@ The app **does not place bets**. It only analyses and recommends. The decision i
 - 🔔 **Sound + popup notifications** for each signal type
 - 🌐 **5 interface languages**: Russian, English, Armenian, Azerbaijani, Turkish
 - 🔄 **Auto-update** via GitHub Releases
-- 💾 Config and logs are stored locally: `%APPDATA%\TennisZetaBot\`
-- 🛑 The app does not accept payments and does not connect to bookmaker APIs
+- 💾 Config and logs in `%APPDATA%\TennisZetaBot\`
 
 ### 🚀 Quick start
 
 1. Download `TennisZetaBot.exe` from the **Releases** section
-2. Run the app  
-   _Windows may ask for confirmation — this is normal for unsigned applications._
+2. Run the app (Windows may ask for confirmation — that's normal)
 3. Open the **"⚙ Settings"** tab and configure your parameters
 4. Press **▶ Start** on the "📡 Signals" tab
 5. The app scans Tennis24 every few seconds
@@ -205,30 +182,26 @@ The app **does not place bets**. It only analyses and recommends. The decision i
 8. Open your bookmaker and place the bet manually
 
 ### 📁 Data storage
-
-```text
 %APPDATA%\TennisZetaBot
-├── config.json          ← settings
-├── zetabot.log          ← log
-└── signals_history.csv  ← signal export
-```
+├── config.json ← settings
+├── zetabot.log ← log
+└── signals_history.csv ← signal export
+
+text
 
 ### ⚖ Legal
 
 - Distributed **free of charge**
 - Any sale is a **violation**
 - Not a bookmaker, does **not accept bets**
-- All signals are **informational only**
-- Not financial or investment advice
+- All signals are **informational**
 - Author is **not responsible** for financial losses
-- Not affiliated with Tennis24, WTA, ATP, ITF, bookmakers, or other rights holders
 
 ### 📞 Contacts
 
 - 📢 Telegram channel: [@aizetabot](https://t.me/aizetabot)
 - ✉️ Contact: [@ai_zetabot](https://t.me/ai_zetabot)
 - 🌐 Ecosystem: [zetabot.ru](https://zetabot.ru)
-- 🤖 AI projects: [ai.zetabot.ru](https://ai.zetabot.ru)
 
 ### ☕ Support the author
 
@@ -236,20 +209,13 @@ The app **does not place bets**. It only analyses and recommends. The decision i
 
 ---
 
-<a id="armenian"></a>
+<a id="-հայերեն"></a>
 
-## 🇦 Հայերեն
+## 🇦🇲 Հայերեն
 
-**Tennis ZetaBot**-ը անվճար Windows դեսքթոփ ծրագիր է Tennis24-ում մենախաղ թենիս խաղերի live մոնիտորինգի համար՝ պատրաստի կանխատեսումներով պրոֆեսիոնալ մակարդակի ռազմավարությունների համար։ Ծրագուրը վերլուծում է խաղերը իրական ամանակում և ցույց է տալիս առանձին սյունակում պատրաստի բաղադրատոմս՝ **ում վրա խաղադրույք, որ շուկա, որ գործակից, ինչ գումար**։
+**Tennis ZetaBot**-ը անվճար Windows դեսքթոփ ծրագիր է Tennis24-ում մենախաղ թենիս խաղերի live մոնիտորինգի համար՝ պատրաստի կանխատեսումներով պրոֆեսիոնալ մակարդակի ռազմավարությունների համար։ Ծրագուրը վերլուծում է խաղերը իրական ժամանակում և ցույց է տալիս առանձին սյունակում պատրաստի բաղադրատոմս՝ **ում վրա խաղադրույք, որ շուկա, որ գործակից, ինչ գումար**։
 
 Ծրագուրը **խաղադրույք չի անում**։ Այն միայն վերլուծում և խորհուրդ է տալիս։ Որոշումը միշտ ձերն է։
-
-### 💻 ահանջներ
-
-- Windows 10 / 11, 64-bit
-- Կայուն ինտերնետ կապ
-- Մուտք Tennis24
-- Բուքմեյքերային հաշիվ — միայն ձեռքով խաղադրույք կատարելու համար
 
 ### 🎯 Հիմնական ռազմավարություն «30/30 անհաջողակի վրա»
 
@@ -267,7 +233,7 @@ The app **does not place bets**. It only analyses and recommends. The decision i
 
 | Ռազմավարություն | Երբ | Գործ. | Չափ |
 |---|---|---|---|
-| 🟠 **րեյք-փոյնթ ֆավորիտի վրա** | 0-40 / 15-40 ֆավորիտի սերվի վրա | 1.30–1.60 | Ֆիքս. 2000–4000 ֏ |
+| 🟠 **Բրեյք-փոյնթ ֆավորիտի վրա** | 0-40 / 15-40 ֆավորիտի սերվի վրա | 1.30–1.60 | Ֆիքս. 2000–4000 ֏ |
 | 🔵 **Բրեյք-բեք** | Անհաջողակը կորցրեց սերվը → հաջորդ գեյմ | 2.00–2.50 | Ֆիքս. 2000–4000 ֏ |
 | 🟣 **Վելյու 1-ին սեթից հետո** | Ֆավորիտը տանուլ տվեց 1-ին սեթը | 2.50–4.00 | Ֆիքս. 1–2 % բանկից |
 
@@ -289,29 +255,26 @@ The app **does not place bets**. It only analyses and recommends. The decision i
 - 🔔 **Ձայն + popup ծանուցումներ**
 - 🌐 **5 ինտերֆեյսի լեզու**՝ Русский, English, Հայերեն, Azərbaycan, Türkçe
 - 🔄 **Ավտոմատ թարմացում** GitHub Releases-ի միջոցով
-- 💾 Կարգավորումները և մատյանները պահվում են տեղական՝ `%APPDATA%\TennisZetaBot\`
-- 🛑 Ծրագուրը վճարումներ չի ընդունում և չի միանում բուքմեյքերային API-ներին
+- 💾 Կարգավորումները և մատյանները `%APPDATA%\TennisZetaBot\`-ում
 
 ### 🚀 Արագ մեկնարկ
 
 1. Ներբեռնեք `TennisZetaBot.exe`-ը **Releases** բաժնից
-2. Գործարկեք հավելվածը  
-   _Windows-ը կարող է հաստատում խնդրել unsigned հավելվածների համար։_
+2. Գործարկեք հավելվածը (Windows-ը կարող է հաստատում խնդրել)
 3. Բացեք **«⚙ Կարգավորումներ»** ներդիրը և կարգավորեք պարամետրերը
 4. Սեղմեք **▶ Սկսել** «📡 Ազդանշաններ» ներդիրում
 5. Ծրագուրը սկանավորում է Tennis24-ը ամեն մի քանի վայրկյան
 6. Ազդանշան հայտնվեց — կանաչ տող + ձայն + popup
-7. **«👉 Ուր աղադրույք»** սյունակում — պատրաստի կանխատեսում
+7. **«👉 Ուր խաղադրույք»** սյունակում — պատրաստի կանխատեսում
 8. Բացեք բուքմեյքերը և խաղադրույքը կատարեք ձեռքով
 
 ### 📁 Տվյալների պահոց
-
-```text
 %APPDATA%\TennisZetaBot
-├── config.json          ← կարգավորումներ
-├── zetabot.log          ← մատյան
-└── signals_history.csv  ← ազդանշանների արտահանում
-```
+├── config.json ← կարգավորումներ
+├── zetabot.log ← մատյան
+└── signals_history.csv ← ազդանշանների արտահանում
+
+text
 
 ### ⚖ Իրավական
 
@@ -319,16 +282,13 @@ The app **does not place bets**. It only analyses and recommends. The decision i
 - Ցանկացած վաճառք — **խախտում**
 - Բուքմեյքեր չէ, խաղադրույք **չի ընդունում**
 - Բոլոր ազդանշանները **տեղեկատվական** են
-- Չի համարվում ֆինանսական կամ ներդրումային խորհուրդ
 - Հեղինակը **պատասխանատվություն չի կրում** ֆինանսական կորուստների համար
-- Նախագիծը կապված չէ Tennis24, WTA, ATP, ITF, բուքմեյքերների կամ այլ իրավատերերի հետ
 
 ### 📞 Կապ
 
 - 📢 Telegram ալիք՝ [@aizetabot](https://t.me/aizetabot)
 - ✉️ Կապ՝ [@ai_zetabot](https://t.me/ai_zetabot)
 - 🌐 Էկոհամակարգ՝ [zetabot.ru](https://zetabot.ru)
-- 🤖 AI նախագծեր՝ [ai.zetabot.ru](https://ai.zetabot.ru)
 
 ### ☕ Աջակցել հեղինակին
 
@@ -336,20 +296,13 @@ The app **does not place bets**. It only analyses and recommends. The decision i
 
 ---
 
-<a id="azerbaijani"></a>
+<a id="-azərbaycan"></a>
 
-## 🇦 Azərbaycan
+## 🇦🇿 Azərbaycan
 
 **Tennis ZetaBot** — Tennis24-də tək tennis oyunlarının canlı monitorinqi üçün pulsuz Windows masaüstü proqramıdır: peşəkar səviyyəli strategiyalar üzrə hazır proqnozlar ilə. Proqram oyunları real vaxtda analiz edir və ayrı sütunda hazır resept göstərir: **kimə mərc, hansı bazar, hansı əmsal, nə qədər pul**.
 
 Proqram **mərc etmir**. Yalnız analiz edir və tövsiyə verir. Qərar həmişə sizindir.
-
-### 💻 Tələblər
-
-- Windows 10 / 11, 64-bit
-- Sabit internet bağlantısı
-- Tennis24-ə giriş
-- Bukmeker hesabı — yalnız əl ilə mərc etmək üçün
 
 ### 🎯 Əsas strategiya «30/30 autsayderə»
 
@@ -389,14 +342,12 @@ Proqram **mərc etmir**. Yalnız analiz edir və tövsiyə verir. Qərar həmiş
 - 🔔 **Səs + popup bildirişləri**
 - 🌐 **5 interfeys dili**: Русский, English, Հայերեն, Azərbaycan, Türkçe
 - 🔄 **Avtomatik yeniləmə** GitHub Releases vasitəsilə
-- 💾 Konfiq və jurnallar lokal saxlanılır: `%APPDATA%\TennisZetaBot\`
-- 🛑 Proqram ödəniş qəbul etmir və bukmeker API-lərinə qoşulmur
+- 💾 Konfiq və jurnallar `%APPDATA%\TennisZetaBot\`-da
 
 ### 🚀 Sürətli başlanğıc
 
 1. **Releases** bölməsindən `TennisZetaBot.exe`-i yükləyin
-2. Proqramı işə salın  
-   _Windows imzasız proqramlar üçün təsdiq istəyə bilər._
+2. Proqramı işə salın (Windows təsdiq istəyə bilər)
 3. **«⚙ Tənzimləmələr»** sekmesini açın və parametrləri qur
 4. «📡 Siqnallar» sekmesinde **▶ Başlat** düyməsini basın
 5. Proqram Tennis24-ü hər neçə saniyədən bir skan edir
@@ -405,13 +356,12 @@ Proqram **mərc etmir**. Yalnız analiz edir və tövsiyə verir. Qərar həmiş
 8. Bukmekerinizi açın və mərci əl ilə edin
 
 ### 📁 Məlumat saxlama
-
-```text
 %APPDATA%\TennisZetaBot
-├── config.json          ← tənzimləmələr
-├── zetabot.log          ← jurnal
-└── signals_history.csv  ← siqnal ixracı
-```
+├── config.json ← tənzimləmələr
+├── zetabot.log ← jurnal
+└── signals_history.csv ← siqnal ixracı
+
+text
 
 ### ⚖ Hüquqi
 
@@ -419,16 +369,13 @@ Proqram **mərc etmir**. Yalnız analiz edir və tövsiyə verir. Qərar həmiş
 - Hər hansı satış — **pozuntudur**
 - Bukmeker deyil, mərc **qəbul etmir**
 - Bütün siqnallar **məlumat xarakterlidir**
-- Maliyyə və ya investisiya məsləhəti deyil
 - Müəllif maliyyə itkilərinə görə **məsuliyyət daşımır**
-- Layihə Tennis24, WTA, ATP, ITF, bukmekerlər və digər hüquq sahibləri ilə əlaqəli deyil
 
 ### 📞 Əlaqə
 
 - 📢 Telegram kanal: [@aizetabot](https://t.me/aizetabot)
 - ✉️ Əlaqə: [@ai_zetabot](https://t.me/ai_zetabot)
 - 🌐 Ekosistem: [zetabot.ru](https://zetabot.ru)
-- 🤖 AI layihələri: [ai.zetabot.ru](https://ai.zetabot.ru)
 
 ### ☕ Müəllifi dəstəkləyin
 
@@ -436,20 +383,13 @@ Proqram **mərc etmir**. Yalnız analiz edir və tövsiyə verir. Qərar həmiş
 
 ---
 
-<a id="turkish"></a>
+<a id="-türkçe"></a>
 
 ## 🇹🇷 Türkçe
 
 **Tennis ZetaBot**, Tennis24'te tek tenis maçlarının canlı izlenmesi için ücretsiz bir Windows masaüstü uygulamasıdır: profesyonel seviye stratejiler için hazır tahminlerle. Program maçları gerçek zamanlı analiz eder ve ayrı bir sütunda hazır tarif gösterir: **kime bahis, hangi piyasa, hangi oran, ne kadar para**.
 
 Program **bahis yapmaz**. Yalnızca analiz eder ve önerir. Karar her zaman sizindir.
-
-### 💻 Gereksinimler
-
-- Windows 10 / 11, 64-bit
-- Kararlı internet bağlantısı
-- Tennis24 erişimi
-- Bahis hesabı — yalnızca manuel bahis yapmak için
 
 ### 🎯 Ana strateji «30/30 zayıf tarafa»
 
@@ -489,14 +429,12 @@ Program **bahis yapmaz**. Yalnızca analiz eder ve önerir. Karar her zaman sizi
 - 🔔 **Ses + popup bildirimleri**
 - 🌐 **5 arayüz dili**: Русский, English, Հայերեն, Azərbaycan, Türkçe
 - 🔄 **Otomatik güncelleme** GitHub Releases üzerinden
-- 💾 Config ve loglar yerel olarak saklanır: `%APPDATA%\TennisZetaBot\`
-- 🛑 Program ödeme kabul etmez ve bahis API'lerine bağlanmaz
+- 💾 Config ve loglar `%APPDATA%\TennisZetaBot\` içinde
 
 ### 🚀 Hızlı başlangıç
 
 1. **Releases** bölümünden `TennisZetaBot.exe` indirin
-2. Uygulamayı çalıştırın  
-   _Windows, imzasız uygulamalar için onay isteyebilir._
+2. Uygulamayı çalıştırın (Windows onay isteyebilir)
 3. **«⚙ Ayarlar»** sekmesini açın ve parametreleri yapılandırın
 4. «📡 Sinyaller» sekmesinde **▶ Başlat**'a basın
 5. Program Tennis24'ü birkaç saniyede bir tarar
@@ -505,13 +443,12 @@ Program **bahis yapmaz**. Yalnızca analiz eder ve önerir. Karar her zaman sizi
 8. Bahisçinizi açın ve bahsi elle yapın
 
 ### 📁 Veri saklama
-
-```text
 %APPDATA%\TennisZetaBot
-├── config.json          ← ayarlar
-├── zetabot.log          ← günlük
-└── signals_history.csv  ← sinyal dışa aktarma
-```
+├── config.json ← ayarlar
+├── zetabot.log ← günlük
+└── signals_history.csv ← sinyal dışa aktarma
+
+text
 
 ### ⚖ Yasal
 
@@ -519,16 +456,13 @@ Program **bahis yapmaz**. Yalnızca analiz eder ve önerir. Karar her zaman sizi
 - Herhangi bir satış — **ihlaldir**
 - Bahisçi değildir, bahis **kabul etmez**
 - Tüm sinyaller **bilgilendirme amaçlıdır**
-- Finansal veya yatırım tavsiyesi değildir
 - Yazar finansal kayıplardan **sorumlu değildir**
-- Proje Tennis24, WTA, ATP, ITF, bahis şirketleri veya diğer hak sahipleriyle ilişkili değildir
 
 ### 📞 İletişim
 
 - 📢 Telegram kanal: [@aizetabot](https://t.me/aizetabot)
 - ✉️ İletişim: [@ai_zetabot](https://t.me/ai_zetabot)
 - 🌐 Ekosistem: [zetabot.ru](https://zetabot.ru)
-- 🤖 AI projeleri: [ai.zetabot.ru](https://ai.zetabot.ru)
 
 ### ☕ Yazarı destekleyin
 
@@ -540,74 +474,41 @@ Program **bahis yapmaz**. Yalnızca analiz eder ve önerir. Karar her zaman sizi
 
 Все версии / All versions — в разделе **[Releases](../../releases)**.
 
-Формат / Format: `TennisZetaBot.exe` — Windows 10/11, 64-bit.
-
----
-
-## ⚠️ Responsible Gambling / Ответственная игра
-
-### 🇷 Русский
-Ставки на спорт связаны с риском потери денег. Не используйте деньги, которые не готовы потерять. Не пытайтесь отыграться. Если игра перестала быть развлечением — сделайте паузу. 18+.
-
-### 🇬🇧 English
-Sports betting involves risk of financial loss. Never bet money you cannot afford to lose. Do not chase losses. If betting stops being entertainment, take a break. 18+.
-
-### 🇦🇲 Հայերեն
-Մարզական խաղադրույքները կապված են ֆինանսական կորստի ռիսկի հետ։ Մի՛ աղացեք այն գումարով, որը չեք կարող կորցնել։ Մի՛ փորձեք հետ շահել։ Եթե խաղադրույքը դադարել է զվարճություն լինել, ընդմիջեք։ 18+։
-
-### 🇦 Azərbaycan
-İdman mərcləri maliyyə itkisi riski daşıyır. İtirməyi göze ala bilməyəcəyiniz pulla mərc etməyin. İtkiləri geri qazanmağa çalışmayın. Əgər mərc əyləncə olmaqdan çıxıbsa, fasilə verin. 18+.
-
-### 🇹🇷 Türkçe
-Spor bahisleri finansal kayıp riski taşır. Kaybetmeyi göze alamayacağınız parayla bahis yapmayın. Kayıpları kurtarmaya çalışmayın. Bahis eğlence olmaktan çıktıysa ara verin. 18+.
+Format: `TennisZetaBot.exe` — Windows 10/11, 64-bit.
 
 ---
 
 ## 🏷 GitHub Topics
+tennis tennis24 flashscore tennis-bot tennis-signals tennis-predictions
+live-tennis betting sports-betting underdog-strategy martingale
+break-point break-back value-betting wta atp itf challenger
+oscar-grind serve-hold totals-tennis tennis-analytics
+telegram-bot windows desktop-app free tennis-monitor live-signals
+zetabot malukyan aizetabot ai-zetabot
+ставки теннис прогнозы сигналы стратегия андердог брейк-поинт
+մենախաղ թենիս ազդանշաններ proqnoz tennis siqnal tenis sinyal
 
-Рекомендуемые темы для раздела **About → Topics** на GitHub:
-
-```text
-tennis, tennis24, tennis-bot, tennis-signals, tennis-predictions,
-live-tennis, betting, sports-betting, underdog-strategy, martingale,
-break-point, break-back, value-betting, wta, atp, itf, challenger,
-oscar-grind, serve-hold, tennis-analytics
-```
-
-Дополнительные ключевые слова для SEO и описания:
-
-```text
-windows, desktop-app, free, tennis-monitor, live-signals,
-zetabot, malukyan, aizetabot, ai-zetabot,
-ставки, теннис, прогнозы, сигналы, стратегия, андердог, брейк-поинт,
-մենախաղ, թենիս, ազդանշաններ, proqnoz, tennis siqnal, tenis sinyal
-```
+text
 
 ---
 
 ## 📋 Repository Description (для GitHub About)
 
-**EN:**  
-Free Windows app for live singles tennis monitoring on Tennis24. Ready-to-play forecasts for 8 strategies: 30/30 underdog, break point, break-back, value, totals, serve-hold, Oscar Grind. 5 languages. Not a bookmaker. Informational only.
+**EN:** Free Windows app for live singles tennis monitoring on Tennis24. Ready-to-play forecasts for 8 strategies: 30/30 underdog, break point, break-back, value, totals, serve-hold, Oscar Grind. 5 languages. Not a bookmaker.
 
-**RU:**  
-Бесплатное Windows-приложение для live-мониторинга одиночного тенниса на Tennis24. Готовые прогнозы по 8 стратегиям: 30/30, брейк-поинт, брейк-бэк, валуй, тоталы, serve-hold, Oscar Grind. 5 языков. Не букмекер. Только информация.
+**RU:** Бесплатное Windows-приложение для live-мониторинга одиночного тенниса на Tennis24. Готовые прогнозы по 8 стратегиям: 30/30, брейк-поинт, брейк-бэк, валуй, тоталы, serve-hold, Oscar Grind. 5 языков. Не букмекер.
 
-**HY:**  
-Անվճար Windows ծրագիր Tennis24-ում մենախաղ թենիսի live մոնիտորինգի համար։ 8 ռազմավարություն + 5 լեզու։ Ոչ բուքմեյքեր։ Միայն տեղեկատվություն։
+**HY:** Անվճար Windows ծրագիր Tennis24-ում մենախաղ թենիսի live մոնիտորինգի համար։ 8 ռազմավարություն + 5 լեզու։
 
-**AZ:**  
-Tennis24-də tək tennis canlı monitorinqi üçün pulsuz Windows proqramı. 8 strategiya + 5 dil. Bukmeker deyil. Yalnız məlumat.
+**AZ:** Tennis24-də tək tennis canlı monitorinqi üçün pulsuz Windows proqramı. 8 strategiya + 5 dil.
 
-**TR:**  
-Tennis24'te tek tenis canlı izleme için ücretsiz Windows uygulaması. 8 strateji + 5 dil. Bahisçi değildir. Yalnızca bilgilendirme.
+**TR:** Tennis24'te tek tenis canlı izleme için ücretsiz Windows uygulaması. 8 strateji + 5 dil.
 
 ---
 
-## 🌐 Website & Community
+## 🌐 Website
 
 - **Ecosystem:** [zetabot.ru](https://zetabot.ru)
-- **AI projects:** [ai.zetabot.ru](https://ai.zetabot.ru)
 - **Telegram channel:** [@aizetabot](https://t.me/aizetabot)
 - **Contact:** [@ai_zetabot](https://t.me/ai_zetabot)
 
